@@ -1,0 +1,34 @@
+function update() {
+  d2 = document.getElementById("d2");
+  b1 = document.getElementById("b1");
+  s2 = document.getElementById("s2");
+  a1 = document.getElementById("a1");
+  a2 = document.getElementById("a2");
+  a3 = document.getElementById("a3");
+  a4 = document.getElementById("a4");
+  a1.classList.toggle("test5");
+  a2.classList.toggle("test5");
+  a3.classList.toggle("test5");
+  a4.classList.toggle("test5");
+  s2.classList.toggle("test5");
+  sp = document.getElementById("sp");
+  d1 = document.getElementById("d1");
+  nv = document.getElementById("nv");
+  nom = document.getElementById("nom");
+  tm = document.getElementById("tm");
+  nv.classList.toggle("test6");
+  t1.classList.toggle("test3");
+  nom.classList.toggle("test4");
+  tm.classList.toggle("test5");
+  d1.classList.toggle("test");
+  sp.classList.toggle("test2");
+  img = document.getElementById("img3");
+  p1 = document.getElementById("p1");
+  p2 = document.getElementById("p2");
+  p2.classList.toggle("test5");
+  p1.classList.toggle("test5");
+  me = document.getElementById("me");
+  b1.classList.toggle("active");
+  img.classList.toggle("on");
+  d2.classList.toggle("bg");
+}
